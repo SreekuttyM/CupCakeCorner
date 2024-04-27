@@ -11,6 +11,7 @@
 		4DC9C41A2BDD704C00B4CEBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9C4192BDD704C00B4CEBA /* ContentView.swift */; };
 		4DC9C41C2BDD705000B4CEBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC9C41B2BDD705000B4CEBA /* Assets.xcassets */; };
 		4DC9C41F2BDD705000B4CEBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC9C41E2BDD705000B4CEBA /* Preview Assets.xcassets */; };
+		4DC9C4262BDD78C200B4CEBA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9C4252BDD78C200B4CEBA /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4DC9C4192BDD704C00B4CEBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DC9C41B2BDD705000B4CEBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DC9C41E2BDD705000B4CEBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DC9C4252BDD78C200B4CEBA /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4DC9C4172BDD704C00B4CEBA /* CupCakeCornerApp.swift */,
 				4DC9C4192BDD704C00B4CEBA /* ContentView.swift */,
+				4DC9C4252BDD78C200B4CEBA /* Result.swift */,
 				4DC9C41B2BDD705000B4CEBA /* Assets.xcassets */,
 				4DC9C41D2BDD705000B4CEBA /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC9C4262BDD78C200B4CEBA /* Result.swift in Sources */,
 				4DC9C41A2BDD704C00B4CEBA /* ContentView.swift in Sources */,
 				4DC9C4182BDD704C00B4CEBA /* CupCakeCornerApp.swift in Sources */,
 			);
