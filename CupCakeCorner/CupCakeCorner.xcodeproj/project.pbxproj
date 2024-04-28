@@ -11,8 +11,9 @@
 		4DC9C41A2BDD704C00B4CEBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9C4192BDD704C00B4CEBA /* ContentView.swift */; };
 		4DC9C41C2BDD705000B4CEBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC9C41B2BDD705000B4CEBA /* Assets.xcassets */; };
 		4DC9C41F2BDD705000B4CEBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC9C41E2BDD705000B4CEBA /* Preview Assets.xcassets */; };
-		4DC9C4262BDD78C200B4CEBA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9C4252BDD78C200B4CEBA /* Result.swift */; };
-		4DC9C42A2BDD7C8800B4CEBA /* SignUpForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9C4292BDD7C8800B4CEBA /* SignUpForm.swift */; };
+		4DC9C42C2BDE5B3C00B4CEBA /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9C42B2BDE5B3B00B4CEBA /* Order.swift */; };
+		4DC9C4302BDE5C6700B4CEBA /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9C42F2BDE5C6700B4CEBA /* AddressView.swift */; };
+		4DC9C4322BDE9EFB00B4CEBA /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9C4312BDE9EFA00B4CEBA /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +22,9 @@
 		4DC9C4192BDD704C00B4CEBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DC9C41B2BDD705000B4CEBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DC9C41E2BDD705000B4CEBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4DC9C4252BDD78C200B4CEBA /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		4DC9C4292BDD7C8800B4CEBA /* SignUpForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpForm.swift; sourceTree = "<group>"; };
+		4DC9C42B2BDE5B3B00B4CEBA /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		4DC9C42F2BDE5C6700B4CEBA /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		4DC9C4312BDE9EFA00B4CEBA /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			children = (
 				4DC9C4172BDD704C00B4CEBA /* CupCakeCornerApp.swift */,
 				4DC9C4192BDD704C00B4CEBA /* ContentView.swift */,
-				4DC9C4292BDD7C8800B4CEBA /* SignUpForm.swift */,
-				4DC9C4252BDD78C200B4CEBA /* Result.swift */,
+				4DC9C42F2BDE5C6700B4CEBA /* AddressView.swift */,
+				4DC9C4312BDE9EFA00B4CEBA /* CheckoutView.swift */,
+				4DC9C42B2BDE5B3B00B4CEBA /* Order.swift */,
 				4DC9C41B2BDD705000B4CEBA /* Assets.xcassets */,
 				4DC9C41D2BDD705000B4CEBA /* Preview Content */,
 			);
@@ -143,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC9C4262BDD78C200B4CEBA /* Result.swift in Sources */,
-				4DC9C42A2BDD7C8800B4CEBA /* SignUpForm.swift in Sources */,
+				4DC9C42C2BDE5B3C00B4CEBA /* Order.swift in Sources */,
+				4DC9C4302BDE5C6700B4CEBA /* AddressView.swift in Sources */,
+				4DC9C4322BDE9EFB00B4CEBA /* CheckoutView.swift in Sources */,
 				4DC9C41A2BDD704C00B4CEBA /* ContentView.swift in Sources */,
 				4DC9C4182BDD704C00B4CEBA /* CupCakeCornerApp.swift in Sources */,
 			);
@@ -280,6 +284,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CupCakeCorner/Preview Content\"";
+				DEVELOPMENT_TEAM = NTYX82CF4J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -292,7 +297,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.CupCakeCorner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldenscent.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CupCakeCorner/Preview Content\"";
+				DEVELOPMENT_TEAM = NTYX82CF4J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -320,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.CupCakeCorner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldenscent.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
